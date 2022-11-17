@@ -16,4 +16,4 @@ function factorialize(num){
     return num;
 }
 let result = factorialize(n);
-console.log(result);
+console.log(`The result is :  ${result}`);
