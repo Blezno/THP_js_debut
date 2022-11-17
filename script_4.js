@@ -19,12 +19,11 @@ const entrepreneurs = [
     { first: 'Peter', last: 'Thiel', year: 1967 }
     ];
     
-//question 1 : filter in this list the entrepreneurs born in the 70.
-//entrepreneurs.forEach(element => {
- //   console.log(element.year);
-//})
-
+//question 1 : filter in this list the entrepreneurs born in the 70 (70 to 79)
+console.log("Wich entrepreneurs were born in the seventies ? ")
 let seventies = entrepreneurs.filter(element => {
-    return element.year === 1970
+    return element.year >= 1970 && element.year <=1980; 
 })
-    console.log(seventies)
+    console.log(seventies);
+
+//question 2 : make a new array that gives only the first and last names of the entrepreneurs:
